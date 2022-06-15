@@ -21,6 +21,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
+
 .navigation-link {
   color: #000;
   font-size: 20px;
@@ -29,9 +30,6 @@ body {
   text-decoration: none;
 }
 .welcome {
-  background-image: url('../images/background_welcome.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -53,7 +51,6 @@ body {
 
 .advantages-item-image {
   color: #ffffff;
-  background-color: #82b3d3;
 }
 .advantages-description {
   font-size: 18px;
@@ -61,6 +58,8 @@ body {
   text-transform: none;
 }
 .question-block {
+  background-color: #fff;
+
   text-align: center;
 }
 .question-date {
@@ -82,6 +81,9 @@ body {
 }
 .subscription {
   background-image: url('../images/background_subscribe.jpg');
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
 }
@@ -113,6 +115,7 @@ body {
 }
 .main-banner {
   background-image: url('../images/main_banner.jpg');
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .body welcome {
