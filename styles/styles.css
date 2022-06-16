@@ -21,7 +21,12 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
-
+.welcome {
+  background-color: #fff;
+}
+.navigation {
+  background-color: #fff;
+}
 .navigation-link {
   color: #000;
   font-size: 20px;
@@ -34,6 +39,14 @@ body {
   line-height: 36px;
   text-align: center;
 }
+.main-banner {
+  background-image: url('../images/main_banner.jpg');
+  background-color: #7baec7;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .five_advantages {
   font-size: 22px;
   line-height: 26px;
@@ -59,7 +72,6 @@ body {
 }
 .question-block {
   background-color: #fff;
-
   text-align: center;
 }
 .question-date {
@@ -69,7 +81,9 @@ body {
   text-transform: uppercase;
   text-transform: none;
 }
-
+.question-block {
+  background-color: #fff;
+}
 .question-button {
   background-color: #756157;
   color: #fff;
@@ -81,6 +95,7 @@ body {
 }
 .subscription {
   background-image: url('../images/background_subscribe.jpg');
+  background-color: #7aaec7;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,16 +124,7 @@ body {
   text-decoration: none;
 }
 .page-footer {
-  background-image: url('../images/footer_background.jpg');
-  background-color: #e5e5e5;
+  background-color: #fff;
   background-repeat: no-repeat;
-}
-.main-banner {
-  background-image: url('../images/main_banner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-.body welcome {
-  background-image: url('../images/background_welcome');
-  background-repeat: no-repeat;
+  background-position: center;
 }
