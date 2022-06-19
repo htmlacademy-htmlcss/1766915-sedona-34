@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <link rel="stylesheet" href="styles/styles.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SEDONA</title>
@@ -15,7 +15,7 @@
             src="images/logo.svg"
             width="139"
             height="70"
-            alt="Логотип города Седона."
+            alt="Логотип города Седона"
           />
         </a>
         <ul class="navigtion-list">
@@ -72,7 +72,7 @@
           alt="Добро пожаловать в великолепный Каньон Седона"
         />
       </section>
-      <div class="welcome">
+      <div class="body welcome">
         <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="five_advantages">
           Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
@@ -82,7 +82,7 @@
       <section class="advantages">
         <h2 class="visually-hidden">Основные преимущества</h2>
         <ol class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item-image">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">— №1 —</p>
             <p class="advantages-description">
@@ -95,11 +95,11 @@
               width="800"
               height="384"
             />
-            <ul>
-              <li class="services-item background-services">
+            <ul class="advantages services">
+              <li class="services-item">
                 <h3 class="advantages-title">Жильё</h3>
                 <p class="advantages-description">
-                  Рекомендуем пожить в настоящем мотеле, всё как в кино!
+                  Рекомендуем пожить в настоящем мотеле всё как в кино!
                 </p>
               </li>
               <li class="services-item">
@@ -109,7 +109,7 @@
                   разочаруетесь!
                 </p>
               </li>
-              <li class="services-item background-services">
+              <li class="services-item">
                 <h3 class="advantages-title">Сувениры</h3>
                 <p class="advantages-description">
                   Не только китайского, но и настоящего местного производства!
@@ -117,7 +117,7 @@
               </li>
             </ul>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item-image">
             <img
               class="advantages-image-second"
               src="images/photo-2.jpg"
@@ -159,19 +159,20 @@
       <section id="question" class="question-block">
         <h2 class="visually-hidden">Бронирование гостинницы</h2>
         <p>Заинтересовались?</p>
-        <p>
+        <p class="question-date">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <button class="question-button" type="submit">
+        <button class="question question-button" type="submit">
           поиск гостинницы в седоне
         </button>
       </section>
 
       <!-- Форма подписки -->
       <section class="subscription">
-        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
-        <p>
+        <h2 class="visually-hidden">Подписаться на рассылку</h2>
+        <p>Подпишитесь на рассылку</p>
+        <p class="subscription-text">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form
@@ -179,7 +180,12 @@
           action="https://echo.htmlacademy.ru/"
           method="post"
         >
-          <input type="email" name="Ваш E-mail" required />
+          <input
+            type="email"
+            name="Ваш E-mail"
+            placeholder="Ваш e-mail"
+            required
+          />
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
