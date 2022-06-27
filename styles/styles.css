@@ -12,20 +12,52 @@
   src: url('fonts/ptsans-700.woff2') format('woff2');
   font-display: swap;
 }
+html {
+  height: 100%;
+}
 body {
   background-color: #e5e5e5;
   color: #000000;
+  display: flex;
+  flex-direction: column;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin: 0 auto;
+  min-height: 100%;
   text-transform: uppercase;
+  width: 1280px;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-container {
+  flex-grow: 1;
+}
+.page-header {
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
 }
 .welcome {
   background-color: #fff;
 }
+.main-banner-welcome {
+  display: block;
+  margin: 0 auto;
+}
 .navigation {
-  background-color: #fff;
+  display: flex;
+  width: 965px;
+  margin-left: 30px;
+}
+.navigation-logo {
+  display: flex;
+  margin-left: 70px;
+  width: 139px;
 }
 .navigation-link {
   color: #000;
@@ -33,7 +65,20 @@ body {
   line-height: 26px;
   text-transform: none;
   text-decoration: none;
+  margin-left: 30px;
+  padding: 0;
 }
+
+.navigation-list {
+  width: 390px;
+
+  padding: 0;
+}
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
 .welcome {
   font-size: 30px;
   line-height: 36px;
@@ -46,7 +91,20 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.body-welcome {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
 .five_advantages {
   font-size: 22px;
   line-height: 26px;
@@ -57,22 +115,63 @@ body {
   font-weight: 400;
   text-align: center;
 }
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
 }
-
-.advantages-item-image {
+.advantages-item {
+  background-color: #82b3d3;
+  display: flex;
+  width: 100%;
+}
+.advantages-item-city {
   color: #ffffff;
+  width: 400px;
+  height: 100%;
+}
+.advantages-item-bridge {
+  color: #ffffff;
+  width: 400px;
 }
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   text-transform: none;
 }
+.advantages-item-last {
+  width: 400px;
+}
+.advantages-first-image {
+  display: flex;
+  vertical-align: middle;
+}
+.advantages-second-image {
+  display: flex;
+  vertical-align: middle;
+}
+.services {
+  display: flex;
+  width: 100%;
+}
+/* .services-item {
+  width: 400px;
+} */
+.advantages-services {
+  display: flex;
+  width: 400px;
+  list-style: none;
+}
+
 .question-block {
   background-color: #fff;
   text-align: center;
+  width: 100%;
 }
 .question-date {
   font-size: 22px;
@@ -81,9 +180,7 @@ body {
   text-transform: uppercase;
   text-transform: none;
 }
-.question-block {
-  background-color: #fff;
-}
+
 .question-button {
   background-color: #756157;
   color: #fff;
@@ -117,14 +214,34 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+.footer-social {
+  width: 142px;
+  margin-right: 42px;
+}
+
+.footer-contacts {
+  width: 720px;
+  margin-right: 42px;
+}
 .contackts-phone {
   color: #000;
   font-size: 40px;
   line-height: 40px;
+  padding-right: 195px;
   text-decoration: none;
+}
+.footer-copiright {
+  width: 115px;
+}
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
 }
 .page-footer {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
+  width: 1200px;
 }
