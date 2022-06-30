@@ -133,7 +133,6 @@ h1 {
 .advantages-item-city {
   color: #ffffff;
   width: 400px;
-  height: 100%;
 }
 .advantages-item-bridge {
   color: #ffffff;
@@ -144,28 +143,21 @@ h1 {
   line-height: 21px;
   text-transform: none;
 }
-.advantages-item-last {
-  width: 400px;
-}
+
 .advantages-first-image {
-  display: flex;
   vertical-align: middle;
 }
-.advantages-second-image {
-  display: flex;
-  vertical-align: middle;
-}
-.services {
-  display: flex;
-  width: 100%;
-}
-/* .services-item {
-  width: 400px;
-} */
+
 .advantages-services {
   display: flex;
-  width: 400px;
+  width: 1200px;
+  padding-left: 0;
   list-style: none;
+}
+.services-item {
+  display: block;
+  width: 400px;
+  text-align: center;
 }
 
 .question-block {
