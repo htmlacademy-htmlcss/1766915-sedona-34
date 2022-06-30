@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ptsans-400.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/ptsans-700.woff2') format('woff2');
+  font-display: swap;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #e5e5e5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 auto;
+  min-height: 100%;
+  text-transform: uppercase;
+  width: 1280px;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-container {
+  flex-grow: 1;
+}
+.page-header {
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+}
+.welcome {
+  background-color: #fff;
+}
+.main-banner-welcome {
+  display: block;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  width: 965px;
+  margin-left: 30px;
+}
+.navigation-logo {
+  display: flex;
+  margin-left: 70px;
+  width: 139px;
+}
+.navigation-link {
+  color: #000;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: none;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.navigation-list {
+  width: 390px;
+
+  padding: 0;
+}
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
+.welcome {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.main-banner {
+  background-image: url('../images/main_banner.jpg');
+  background-color: #7baec7;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.body-welcome {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+.five_advantages {
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+}
+.advantages {
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+}
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantages-item {
+  background-color: #82b3d3;
+  display: flex;
+  width: 100%;
+}
+.advantages-item-city {
+  color: #ffffff;
+  width: 400px;
+}
+.advantages-item-bridge {
+  color: #ffffff;
+  width: 400px;
+}
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.advantages-first-image {
+  vertical-align: middle;
+}
+
+.advantages-services {
+  display: flex;
+  width: 1200px;
+  padding-left: 0;
+  list-style: none;
+}
+.services-item {
+  display: block;
+  width: 400px;
+  text-align: center;
+}
+
+.question-block {
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.question-date {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+.question-button {
+  background-color: #756157;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.subscription {
+  background-image: url('../images/background_subscribe.jpg');
+  background-color: #7aaec7;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+.subscription-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: none;
+}
+.subscribe-button {
+  background-color: #82b3d3;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer-social {
+  width: 142px;
+  margin-right: 42px;
+}
+
+.footer-contacts {
+  width: 720px;
+  margin-right: 42px;
+}
+.contackts-phone {
+  color: #000;
+  font-size: 40px;
+  line-height: 40px;
+  padding-right: 195px;
+  text-decoration: none;
+}
+.footer-copiright {
+  width: 115px;
+}
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+.page-footer {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 1200px;
+}
