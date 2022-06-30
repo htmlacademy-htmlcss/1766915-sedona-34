@@ -69,17 +69,14 @@ body {
   margin-left: 30px;
   padding: 0;
 }
-
 .navigation-list {
   width: 390px;
-
   padding: 0;
 }
 .navigation-user {
   max-width: 264px;
   margin-left: auto;
 }
-
 .welcome {
   font-size: 30px;
   line-height: 36px;
@@ -96,19 +93,19 @@ body {
   margin: 0;
   padding: 0;
 }
-p {
+.visually-hidden {
+  margin: 0;
+}
+.name-block {
   margin: 0;
   padding: 0;
 }
-h2 {
-  margin: 0;
-}
-h1 {
-  margin: 0;
-}
-.five-advantages {
+.description-text {
   font-size: 22px;
+  font-weight: 400;
   line-height: 26px;
+  margin: 0;
+  padding: 0;
   text-transform: none;
 }
 .advantages {
@@ -125,6 +122,8 @@ h1 {
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
+  margin: 0;
+  padding: 0;
 }
 .advantages-item {
   background-color: #82b3d3;
@@ -142,13 +141,13 @@ h1 {
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
+  padding: 0;
   text-transform: none;
 }
-
 .advantages-first-image {
   vertical-align: middle;
 }
-
 .advantages-services {
   display: flex;
   width: 1200px;
@@ -160,20 +159,11 @@ h1 {
   width: 400px;
   text-align: center;
 }
-
 .question-block {
   background-color: #fff;
   text-align: center;
   width: 100%;
 }
-.question-date {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 26px;
-  text-transform: uppercase;
-  text-transform: none;
-}
-
 .question-button {
   background-color: #756157;
   color: #fff;
@@ -192,12 +182,6 @@ h1 {
   color: #fff;
   text-align: center;
 }
-.subscription-text {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 26px;
-  text-transform: none;
-}
 .subscribe-button {
   background-color: #82b3d3;
   color: #fff;
@@ -211,7 +195,6 @@ h1 {
   width: 142px;
   margin-right: 42px;
 }
-
 .footer-contacts {
   width: 720px;
   margin-right: 42px;
