@@ -37,11 +37,20 @@ body {
 .main-container {
   flex-grow: 1;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-header {
   background-color: #fff;
-  display: flex;
   margin: 0 auto;
-  width: 1200px;
 }
 .welcome {
   background-color: #fff;
@@ -52,30 +61,53 @@ body {
 }
 .navigation {
   display: flex;
-  width: 965px;
-  margin-left: 30px;
+  width: 1200px;
+  margin: 0 auto;
 }
-.navigation-logo {
-  display: flex;
+.logo {
+  margin: 0;
+  padding: 0;
   margin-left: 70px;
   width: 139px;
 }
+.navigation-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+  width: 390px;
+}
 .navigation-link {
   color: #000;
+  display: block;
   font-size: 20px;
   line-height: 26px;
   text-transform: none;
   text-decoration: none;
-  margin-left: 30px;
-  padding: 0;
+  padding: 20px 17px;
 }
-.navigation-list {
-  width: 390px;
-  padding: 0;
-}
+
 .navigation-user {
-  max-width: 264px;
+  align-content: center;
+  align-items: center;
   margin-left: auto;
+  margin-right: 70px;
+  max-width: 264px;
+}
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 18px;
+}
+.want-button {
+  margin: 14px 0px 14px 20px;
+  padding: 8px 16px 8px 16px;
+}
+.search .favorite {
+  padding: 0;
+  margin: 0;
 }
 .welcome {
   font-size: 30px;
