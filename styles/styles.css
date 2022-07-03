@@ -47,7 +47,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .page-header {
   background-color: #fff;
   margin: 0 auto;
@@ -101,7 +100,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .welcome {
   background-color: #fff;
 }
@@ -183,13 +181,11 @@ body {
   padding: 85px 92px;
   width: 230px;
 }
-
 .advantages-item-bridge {
   color: #ffffff;
   padding: 85px 92px;
   width: 230px;
 }
-
 .advantages-first-image {
   vertical-align: middle;
 }
@@ -209,7 +205,9 @@ body {
 .question-block {
   background-color: #fff;
   text-align: center;
-  width: 100%;
+  margin: 0;
+  padding: 92px 304px;
+  width: 592px;
 }
 .question-button {
   background-color: #756157;
@@ -217,9 +215,11 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
+  margin-top: 56px;
   text-transform: uppercase;
   text-align: center;
 }
+
 .subscription {
   background-image: url('../images/background_subscribe.jpg');
   background-color: #7aaec7;
@@ -227,20 +227,34 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+  padding: 94px 200px;
   text-align: center;
 }
+
 .subscribe-button {
   background-color: #82b3d3;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
+  margin-top: 46px;
   text-transform: uppercase;
   text-align: center;
 }
 .footer-social {
   width: 142px;
   margin-right: 42px;
+}
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-social-item {
+  width: 47px;
+  height: 40px;
 }
 .footer-contacts {
   width: 720px;
