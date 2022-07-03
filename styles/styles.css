@@ -130,14 +130,15 @@ body {
   text-align: center;
 }
 .name-block {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
   padding: 0;
 }
 .description-text {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  margin-top: 31px;
+  margin-top: 0;
   margin-bottom: 0px;
   padding: 0;
   text-transform: none;
@@ -241,11 +242,26 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+.page-footer {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+.page-footer-container {
+  display: flex;
+  flex-wrap: no-wrap;
+  width: 1060px;
+  margin: 0;
+  padding: 40px 70px 30px 70px;
+}
 .footer-social {
   width: 142px;
   margin-right: 42px;
 }
 .footer-social-list {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -257,6 +273,9 @@ body {
   height: 40px;
 }
 .footer-contacts {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
   width: 720px;
   margin-right: 42px;
 }
@@ -264,21 +283,10 @@ body {
   color: #000;
   font-size: 40px;
   line-height: 40px;
-  padding-right: 195px;
+  /* padding-right: 195px; */
+
   text-decoration: none;
 }
 .footer-copiright {
   width: 115px;
-}
-.page-footer-container {
-  display: flex;
-  width: 1060px;
-  margin: 0 auto;
-}
-.page-footer {
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  width: 1200px;
 }
