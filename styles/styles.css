@@ -13,7 +13,9 @@
   font-display: swap;
 }
 html {
+ max-width: 1280px;
   height: 100%;
+  margin: 0;
 }
 body {
   background-color: #e5e5e5;
@@ -26,12 +28,13 @@ body {
   justify-content: space-between;
   line-height: 36px;
   margin: 0 auto;
+  padding 0;
   min-height: 100vh;
   text-transform: uppercase;
-  width: 1280px;
+  width: 1200px;
 }
 .page-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 .main-container {
@@ -50,10 +53,11 @@ body {
 .page-header {
   background-color: #fff;
   margin: 0 auto;
+  width: 100%;
 }
 .navigation {
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 .logo {
@@ -88,8 +92,8 @@ body {
 .navigation-user {
   align-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: 70px;
+  margin-left: 238px;
+  margin-right: auto;
   max-width: 264px;
 }
 .navigation-user .navigation-link {
@@ -273,7 +277,7 @@ body {
   list-style-type: none;
 }
 .footer-social-item {
-  width: 47px;
+  /* width: 47px;
   height: 40px;
 }
 .footer-contacts {
@@ -287,7 +291,7 @@ body {
   color: #000;
   font-size: 40px;
   line-height: 40px;
-  /* padding-right: 195px; */
+  /* padding-right: 195px;  */
 
   text-decoration: none;
 }
