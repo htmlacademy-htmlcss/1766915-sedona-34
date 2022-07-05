@@ -62,6 +62,10 @@ body {
   margin-left: 70px;
   width: 139px;
 }
+.logotype {
+  position: absolute;
+  top: 0;
+}
 .navigation-list {
   align-items: center;
   display: flex;
