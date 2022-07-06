@@ -134,6 +134,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 63px;
+  padding-bottom: 90px;
 }
 .name-block {
   margin-top: 0;
@@ -142,7 +143,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 620px;
+  /* width: 620px; */
 }
 .description-text {
   font-size: 22px;
@@ -151,7 +152,8 @@ body {
   margin: 0 auto;
   padding: 0;
   text-transform: none;
-  width: 654px;
+  text-align: center;
+  /* width: 654px; */
 }
 .page-container {
   width: 100%;
