@@ -9,17 +9,16 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <div class="logotype">
-          <a class="logo" href="index.html">
-            <img
-              src="../images/logo.svg"
-              width="139"
-              height="70"
-              alt="Логотип города Седона"
-            />
-        </div>
-          </a>
-        </div>
+        <a class="logo" href="index.html">
+          <img
+            src="../images/logo.svg"
+            width="139"
+            height="70"
+            alt="Логотип города Седона"
+          />
+        </a>
+        <div class="logotype"></div>
+
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Главная</a>
@@ -64,28 +63,27 @@
     </header>
     <main class="main-container">
       <div class="page-container">
-          <section class="main-banner">
-            <h1 class="visually-hidden">Каньон Седона</h1>
-           <img
+        <section class="main-banner">
+          <h1 class="visually-hidden">Каньон Седона</h1>
+          <img
             class="main-banner-welcome"
             src="images/welcome.svg"
             width="456"
             height="352"
             alt="Добро пожаловать в великолепный Каньон Седона"
-             />
+          />
           <!-- <div class="decoration">
             <img  src="../images/banner-decoration.jpg" width="1200" height="57" alt="Декоративный элемент">
           </div> -->
-      </section>
+        </section>
         <div class="body-welcome">
           <p class="name-block">
-            Седона — небольшой городок в Аризоне,<br>заслуживающий большего!
+            Седона — небольшой городок в Аризоне,<br />заслуживающий большего!
           </p>
           <p class="description-text">
             Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
           </p>
         </div>
-
 
         <section class="advantages">
           <h2 class="visually-hidden">Основные преимущества</h2>
@@ -109,14 +107,24 @@
           </ul>
           <ul class="advantages-services advantages-life">
             <li class="services-item item-life">
-              <img class="housing" src="../images/variant=housing.svg" width="84" height="84">
+              <img
+                class="housing"
+                src="../images/variant=housing.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Жильё</h3>
               <p class="advantages-description">
                 Рекомендуем пожить в настоящем мотеле всё как в кино!
               </p>
             </li>
             <li class="services-item item-food">
-              <img class="eating" src="../images/variant=eating.svg" width="84" height="84">
+              <img
+                class="eating"
+                src="../images/variant=eating.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Еда</h3>
               <p class="advantages-description">
                 Всегда заказывайте топовый фирменный бургер, вы не
@@ -125,7 +133,12 @@
             </li>
 
             <li class="services-item item-souvenirs">
-              <img class="souvenir" src="../images/variant=souvenir.svg" width="84" height="84">
+              <img
+                class="souvenir"
+                src="../images/variant=souvenir.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Сувениры</h3>
               <p class="advantages-description">
                 Не только китайского, но и настоящего местного производства!
@@ -178,7 +191,7 @@
 
         <!-- Блок с вопросом -->
 
-         <section id="question" class="question-block">
+        <section id="question" class="question-block">
           <h2 class="visually-hidden">Бронирование гостинницы</h2>
           <p class="name-block">Заинтересовались?</p>
           <p class="description-text">
@@ -212,9 +225,8 @@
             <button class="subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
-       </div>
+      </div>
     </main>
-
 
     <footer class="page-footer">
       <div class="page-footer-container">
@@ -222,21 +234,39 @@
           <h2 class="visually-hidden">Ссылки на социальные сети</h2>
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="button" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">ВКонтакте</span>
+              <a class="button-social" href="https://vk.com/htmlacademy">
+                <img
+                  class="vk"
+                  src="../images/vk=default.svg"
+                  width="24"
+                  height="14"
+                  alt="Социальная сеть Вконтакте"
+                />
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Телеграм</span>
+              <a class="button-social" href="https://t.me/htmlacademy">
+                <img
+                  class="tg"
+                  src="../images/telegram=default.svg"
+                  width="18"
+                  height="15"
+                  alt="Мессенджер Телеграм"
+                />
               </a>
             </li>
             <li class="footer-social-item">
               <a
-                class="button"
+                class="button-social"
                 href="https://www.youtube.com/user/htmlacademyru"
               >
-                <span class="visually-hidden">Ютуб</span>
+                <img
+                  class="youtube"
+                  src="../images/youtube=default.svg"
+                  width="22"
+                  height="17"
+                  alt="Видеохостинг Ютуб"
+                />
               </a>
             </li>
           </ul>
