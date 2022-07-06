@@ -13,9 +13,7 @@
   font-display: swap;
 }
 html {
- max-width: 1280px;
   height: 100%;
-  margin: 0;
 }
 body {
   background-color: #e5e5e5;
@@ -28,15 +26,12 @@ body {
   justify-content: space-between;
   line-height: 36px;
   margin: 0 auto;
-  padding 0;
+  padding: 0;
   min-height: 100vh;
   text-transform: uppercase;
   width: 1200px;
 }
-.page-container {
-  width: 100%;
-  margin: 0 auto;
-}
+
 .main-container {
   flex-grow: 1;
 }
@@ -125,42 +120,59 @@ body {
 .main-banner {
   background-image: url('../images/main_banner.jpg');
   background-color: #7baec7;
-  background-size: 100% auto;
+  /* background-size: auto auto; */
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .body-welcome {
-  align-content: center;
-  background: #fff;
-  margin: 0;
-  padding-top: 63px;
-  padding-bottom: 90px;
-  text-align: center;
+  background-image: url('/images/welcome-background.jpg');
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* padding-left: auto;
+  padding-right: auto; */
+  /* text-align: center; */
 }
 .name-block {
   margin-top: 0;
   margin-bottom: 32px;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
 }
 .description-text {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  margin-top: 0;
-  margin-bottom: 0px;
+  margin: 0 auto;
   padding: 0;
   text-transform: none;
+  width: 654px;
+}
+.page-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 .advantages {
   color: #000;
   font-weight: 400;
   text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 .advantages-list {
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 .advantages-title {
   font-size: 24px;
@@ -183,10 +195,12 @@ body {
 .advantages-item {
   background-color: #82b3d3;
   display: flex;
-  width: 1200px;
+  /* margin: 0; */
+  /* max-width: 1200px; */
 }
 .advantages-item-city {
   color: #ffffff;
+
   padding: 85px 92px;
   width: 230px;
 }
@@ -195,12 +209,12 @@ body {
   padding: 85px 92px;
   width: 230px;
 }
-.advantages-first-image {
+/* .advantages-first-image {
   vertical-align: middle;
-}
+} */
 .advantages-services {
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0;
   padding-left: 0;
   list-style: none;
@@ -255,7 +269,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
 }
 .page-footer-container {
   display: flex;
@@ -277,7 +291,7 @@ body {
   list-style-type: none;
 }
 .footer-social-item {
-  /* width: 47px;
+  width: 47px;
   height: 40px;
 }
 .footer-contacts {
@@ -291,7 +305,7 @@ body {
   color: #000;
   font-size: 40px;
   line-height: 40px;
-  /* padding-right: 195px;  */
+  padding-right: 195px;
 
   text-decoration: none;
 }
