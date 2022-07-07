@@ -14,7 +14,7 @@
 }
 html {
   height: 100%;
-  background-color: green;
+  background-color: #f2f2f2;
 }
 body {
   background-color: #f2f2f2;
@@ -71,6 +71,7 @@ body {
   margin: 0;
   margin-left: 30px;
   padding: 0;
+  position: relative;
   width: 390px;
 }
 .navigation-link {
@@ -85,6 +86,7 @@ body {
 .navigation-user {
   align-content: center;
   align-items: center;
+
   margin-left: 238px;
   margin-right: auto;
   max-width: 264px;
@@ -104,7 +106,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-
+  margin-bottom: 40px;
   padding: 9px 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -334,25 +336,29 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  margin-right: 41px;
   padding: 0;
   list-style-type: none;
 }
 .footer-social-item {
-  width: 47px;
+  width: 48px;
   height: 40px;
-  margin: 5px 0;
-  padding: 0;
+  /* margin: 5px 0;
+  padding: 0; */
 }
 .footer-social {
   width: 142px;
-  margin-right: 42px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 42px; */
 }
-.button-social {
+/* .button-social {
   padding: auto auto;
   margin: auto 0;
   width: 47px;
-  height: 40px;
-}
+  height: 40px; */
+
 .vk {
   margin: 13px 12px;
 }
