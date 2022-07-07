@@ -9,6 +9,7 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
+        <!-- <div class="logotype"> -->
         <a class="logo" href="index.html">
           <img
             src="images/logo.svg"
@@ -17,6 +18,7 @@
             alt="Логотип города Седона"
           />
         </a>
+        <!-- </div> -->
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Главная</a>
@@ -54,25 +56,25 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#question">
-              <span>ХОЧУ СЮДА</span>
-            </a>
+            <a class="button navigation-button" href="#question">ХОЧУ СЮДА!</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main-container main-index">
+    <main class="main-container">
       <div class="page-container">
-        <!--Главный баннер-->
         <section class="main-banner">
           <h1 class="visually-hidden">Каньон Седона</h1>
           <img
             class="main-banner-welcome"
             src="images/welcome.svg"
-            width="458"
+            width="456"
             height="352"
             alt="Добро пожаловать в великолепный Каньон Седона"
           />
+          <!-- <div class="decoration">
+            <img  src="../images/banner-decoration.jpg" width="1200" height="57" alt="Декоративный элемент">
+          </div> -->
         </section>
         <div class="body-welcome">
           <p class="name-block">
@@ -83,7 +85,6 @@
           </p>
         </div>
 
-        <!--Блок с преимуществами-->
         <section class="advantages">
           <h2 class="visually-hidden">Основные преимущества</h2>
           <ul class="advantages-list">
@@ -104,14 +105,26 @@
               />
             </li>
           </ul>
-          <ul class="advantages-services">
-            <li class="services-item">
+          <ul class="advantages-services advantages-life">
+            <li class="services-item item-life">
+              <img
+                class="housing"
+                src="images/variant=housing.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Жильё</h3>
               <p class="advantages-description">
                 Рекомендуем пожить в настоящем мотеле всё как в кино!
               </p>
             </li>
-            <li class="services-item">
+            <li class="services-item item-food">
+              <img
+                class="eating"
+                src="images/variant=eating.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Еда</h3>
               <p class="advantages-description">
                 Всегда заказывайте топовый фирменный бургер, вы не
@@ -119,7 +132,13 @@
               </p>
             </li>
 
-            <li class="services-item">
+            <li class="services-item item-souvenirs">
+              <img
+                class="souvenir"
+                src="images/variant=souvenir.svg"
+                width="84"
+                height="84"
+              />
               <h3 class="advantages-title">Сувениры</h3>
               <p class="advantages-description">
                 Не только китайского, но и настоящего местного производства!
@@ -146,21 +165,21 @@
             </li>
           </ul>
           <ul class="advantages-services">
-            <li class="services-item">
+            <li class="item-dignities">
               <h3 class="advantages-title">Небольшая<br />площадь</h3>
               <p class="advantages-description">— №3 —</p>
               <p class="advantages-description">
                 Все достопримечательности находятся очень близко
               </p>
             </li>
-            <li class="services-item">
+            <li class="item-dignities item-road">
               <h3 class="advantages-title">Красивая<br />дорога</h3>
               <p class="advantages-description">— №4 —</p>
               <p class="advantages-description">
                 Ехать в Седону из Лас-Вегаса совсем не скучно!
               </p>
             </li>
-            <li class="services-item">
+            <li class="item-dignities">
               <h3 class="advantages-title">Мало<br />туристов</h3>
               <p class="advantages-description">— №5 —</p>
               <p class="advantages-description">
@@ -209,28 +228,45 @@
       </div>
     </main>
 
-    <!-- Подвал сайта -->
     <footer class="page-footer">
       <div class="page-footer-container">
         <section class="footer-social">
           <h2 class="visually-hidden">Ссылки на социальные сети</h2>
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="button" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">ВКонтакте</span>
+              <a class="footer-social-link" href="https://vk.com/htmlacademy">
+                <img
+                  class="vk"
+                  src="images/vk=default.svg"
+                  width="24"
+                  height="14"
+                  alt="Социальная сеть Вконтакте"
+                />
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Телеграм</span>
+              <a class="footer-social-link" href="https://t.me/htmlacademy">
+                <img
+                  class="tg"
+                  src="images/telegram=default.svg"
+                  width="18"
+                  height="15"
+                  alt="Мессенджер Телеграм"
+                />
               </a>
             </li>
             <li class="footer-social-item">
               <a
-                class="button"
+                class="footer-social-link"
                 href="https://www.youtube.com/user/htmlacademyru"
               >
-                <span class="visually-hidden">Ютуб</span>
+                <img
+                  class="youtube"
+                  src="images/youtube=default.svg"
+                  width="22"
+                  height="17"
+                  alt="Видеохостинг Ютуб"
+                />
               </a>
             </li>
           </ul>
